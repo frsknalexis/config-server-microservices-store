@@ -1,0 +1,16 @@
+#APPLICATION CONFIGURATION
+spring:
+  application:
+    name: microservices-articulo
+  datasource:
+    url: jdbc:mysql://localhost:3306/alphashop?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: dev_guty
+    password: devuser2019$$
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+
+    database-platform: org.hibernate.dialect.MySQL8Dialect
