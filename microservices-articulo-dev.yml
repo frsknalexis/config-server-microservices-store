@@ -14,3 +14,8 @@ spring:
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 
     database-platform: org.hibernate.dialect.MySQL8Dialect
+
+#MICROSERVICES-PRICE - PROPERTIES
+price:
+  service:
+    url: http://localhost:5071/price/
